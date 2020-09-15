@@ -1,0 +1,5 @@
+Bundle-Name: AngularPortlet10
+Bundle-SymbolicName: AngularPackage
+Bundle-Version: 1.0.0
+Export-Package: AngularPackage.constants
+Web-ContextPath: /AngularPortlet10

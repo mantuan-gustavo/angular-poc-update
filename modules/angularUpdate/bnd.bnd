@@ -1,5 +1,0 @@
-Bundle-Name: angularUpdate
-Bundle-SymbolicName: angularUpdate
-Bundle-Version: 1.0.0
-Export-Package: angularUpdate.constants
-Web-ContextPath: /angularUpdate

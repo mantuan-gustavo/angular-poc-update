@@ -1,0 +1,7 @@
+Bundle-Name: AngularSharedBundle
+Bundle-SymbolicName: com.liferay.AngularSharedBundle
+Bundle-Version: 1.0.0
+Web-ContextPath: /AngularSharedBundle
+Include-Resource:\
+	index=src/index,
+-dsannotations-options: inherit
