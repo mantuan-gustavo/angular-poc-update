@@ -7,6 +7,14 @@
  * in your dependent projects, before using this shared bundle and you will make
  * sure that this code is executed once.
  */
-export default function init() {
-    console.log('a');
+function init() {
+    console.log('aaaaaaaaaaaaaaa');
+}
+function init2() {
+    console.log("bbbbbbbbbbbbbbb");
+}
+
+export {
+    init,
+    init2
 }

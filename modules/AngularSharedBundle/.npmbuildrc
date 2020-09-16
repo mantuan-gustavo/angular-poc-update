@@ -1,16 +1,3 @@
 {
-	"liferayDir": "/home/gustavo.mantuan/Documentos/gustavo.mantuan/angular-poc/bundles",
-	"webpack": {
-    		"rules": [
-    			{
-    				"test": "src\\/.*\\.tsx$",
-    				"use": "ts-loader"
-    			}
-    		],
-    		"extensions": [
-    			".ts",
-    			".tsx"
-    		],
-    		"mainModule": "index.ts"
-    	}
+	"liferayDir": "/home/gustavo.mantuan/Documentos/gustavo.mantuan/angular-poc/bundles"
 }

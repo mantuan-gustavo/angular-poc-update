@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import init from 'AngularSharedBundle';
+// @ts-ignore
+import  { init }  from 'angular.shared.bundle';
 
 export class Hero {
 	id!: number;

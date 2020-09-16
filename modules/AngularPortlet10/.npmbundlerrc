@@ -1,5 +1,5 @@
 {
-    "exclude": {
+	"exclude": {
         "*": true
     },
     "config": {
@@ -20,9 +20,12 @@
                 "@angular/service-worker": "10.1.0",
                 "@ngx-translate/core": "^9.1.1"
             },
+            "angular.shared.bundle": {
+                "/": ">=1.0.0"
+            },
             "": {
                 "npm-angular10-provider": "^1.0.0",
-                "AngularSharedBundle": "^1.0.0"
+                "angular.shared.bundle": "^1.0.0"
             }
         }
     }

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 
-
+//@ts-ignore
+import  { init, init2 }  from 'angular.shared.bundle';
 
 export class Hero {
 	id!: number;
@@ -24,4 +25,8 @@ export class AppComponent {
 		name: 'Windstorm'
 	};
 	title = 'Tour of Heroes';
+
+	constructor(){
+	    init();
+	}
 }
